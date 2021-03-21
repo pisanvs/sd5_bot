@@ -1,0 +1,27 @@
+{
+  "name": "sd5_nowplaying_bot",
+  "version": "1.0.0",
+  "description": "Bot for things that do stuff",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "pisanvs",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "eslint-config-google": "^0.14.0",
+    "ical.js": "^1.4.0",
+    "node-fetch": "^2.6.1",
+    "requests": "^0.3.0"
+  }
+}
